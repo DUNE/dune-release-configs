@@ -1,0 +1,78 @@
+packages:
+
+  # DUNE packages
+  dune-ana:
+    require:
+    - "@=10.11.01d00"
+  dune-ana-obj:
+    require:
+    - "@=03.11.00"
+  dune-calib:
+    require:
+    - "@=10.11.01d00"
+  dune-core:
+    require:
+    - "@=10.11.01d00"
+  dune-daq-data-formats:
+    require:
+    - "@=4.4.5"
+  dune-data-prep:
+    require:
+    - "@=10.11.01d00"
+  dune-det-data-formats:
+    require:
+    - "@=4.4.5"
+  dune-examples:
+    require:
+    - "@=10.11.01d00"
+  dune-op-det:
+    require:
+    - "@=10.11.01d00"
+  dune-pd-legacy:
+    require:
+    - "@=1.01.05"
+  dune-prototypes:
+    require:
+    - "@=10.11.01d00"
+  dune-reco:
+    require:
+    - "@=10.11.01d00"
+  dune-sim:
+    require:
+    - "@=10.11.01d00"
+  dune-sw:
+    require:
+    - "@=10.11.01d00"
+  dune-util:
+    require:
+    - "@=10.11.01d00"
+  protodune-ana:
+    require:
+    - "@=10.11.01d00"
+
+  # external dependencies
+  cuda:
+    require:
+    - "@12.6"
+  geant4:
+    require:
+    - "@10.6.1"
+    - build_type=RelWithDebInfo
+    - generator=ninja
+    - cxxstd=17
+  grpc:
+    require:
+    - build_type=RelWithDebInfo
+    - generator=ninja
+    - cxxstd=17
+  py-tensorflow:
+    require:
+    - +cuda
+    - cuda_arch=80
+  py-torch:
+    require:
+    - +cuda
+    - cuda_arch=80
+  r-m-dd-config:
+    require:
+    - experiment=dune
