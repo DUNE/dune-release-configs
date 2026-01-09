@@ -34,10 +34,10 @@ spack:
     sha256: a3d4c8646e15a02b284150fe67c9d582ef73c3c4a70f58cc17cbb40334af5752
 
   # DUNE
-  - path: https://raw.githubusercontent.com/DUNE/dune-spack-config/refs/heads/main/included_yaml/dune-packages.yaml
-    sha256: 9d8cde49c815a4f8e9ca7a7d2f3984cfb6f677072160de61bc2fc36795fb18f1
-  - path: https://raw.githubusercontent.com/DUNE/dune-spack-config/refs/heads/main/included_yaml/dune-specs.yaml
-    sha256: b49a242b967a9299cdcca6d8ad0f56d3244d7a2f60b2c73a91460366127837eb
+  - path: https://raw.githubusercontent.com/DUNE/dune-release-configs/refs/heads/main/included_yaml/dune-packages.yaml
+    sha256: 772b19873964a1fb07c188f90226ea80af50c68bc579d140865fbf5c5368180e
+  - path: https://raw.githubusercontent.com/DUNE/dune-release-configs/refs/heads/main/included_yaml/dune-specs.yaml
+    sha256: c91fbdc832c29e4111200c197190603d91f5534fbe8fb2b3085e9118782cb929
 
   specs:
     - $fife_specs
