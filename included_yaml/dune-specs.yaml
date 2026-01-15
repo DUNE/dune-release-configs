@@ -16,4 +16,5 @@ definitions:
   - dune-sw %build_compiler
   - dune-util %build_compiler
   - protodune-ana %build_compiler
+  - gfal2-util %build_compiler
   - r-m-dd-config %build_compiler
