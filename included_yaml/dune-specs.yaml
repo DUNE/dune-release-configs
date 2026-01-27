@@ -1,20 +1,20 @@
 definitions:
 - specs_dune:
-  - dune-ana %build_compiler
-  - dune-ana-obj %build_compiler
-  - dune-calib %build_compiler
-  - dune-core %build_compiler
-  - dune-daq-data-formats %build_compiler
-  - dune-data-prep %build_compiler
-  - dune-det-data-formats %build_compiler
-  - dune-examples %build_compiler
-  - dune-op-det %build_compiler
-  - dune-pd-legacy %build_compiler
-  - dune-prototypes %build_compiler
-  - dune-reco %build_compiler
-  - dune-sim %build_compiler
-  - dune-sw %build_compiler
-  - dune-util %build_compiler
-  - protodune-ana %build_compiler
+  - duneana %build_compiler
+  - duneanaobj %build_compiler
+  - dunecalib %build_compiler
+  - dunecore %build_compiler
+  - dunedaqdataformats %build_compiler
+  - dunedataprep %build_compiler
+  - dunedetdataformats %build_compiler
+  - duneexamples %build_compiler
+  - duneopdet %build_compiler
+  - dunepdlegacy %build_compiler
+  - duneprototypes %build_compiler
+  - dunereco %build_compiler
+  - dunesim %build_compiler
+  - dunesw %build_compiler
+  - duneutil %build_compiler
+  - protoduneana %build_compiler
   - gfal2-util %build_compiler
   - r-m-dd-config %build_compiler

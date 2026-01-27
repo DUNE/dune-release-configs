@@ -1,52 +1,52 @@
 packages:
 
   # DUNE packages
-  dune-ana:
+  duneana:
     require:
     - "@=10.11.01d00"
-  dune-ana-obj:
+  duneanaobj:
     require:
     - "@=03.11.00"
-  dune-calib:
+  dunecalib:
     require:
     - "@=10.11.01d00"
-  dune-core:
+  dunecore:
     require:
     - "@=10.11.01d00"
-  dune-daq-data-formats:
+  dunedaqdataformats:
     require:
     - "@=4.4.5"
-  dune-data-prep:
+  dunedataprep:
     require:
     - "@=10.11.01d00"
-  dune-det-data-formats:
+  dunedetdataformats:
     require:
     - "@=4.4.5"
-  dune-examples:
+  duneexamples:
     require:
     - "@=10.11.01d00"
-  dune-op-det:
+  duneopdet:
     require:
     - "@=10.11.01d00"
-  dune-pd-legacy:
+  dunepdlegacy:
     require:
     - "@=1.01.05"
-  dune-prototypes:
+  duneprototypes:
     require:
     - "@=10.11.01d00"
-  dune-reco:
+  dunereco:
     require:
     - "@=10.11.01d00"
-  dune-sim:
+  dunesim:
     require:
     - "@=10.11.01d00"
-  dune-sw:
+  dunesw:
     require:
     - "@=10.11.01d00"
-  dune-util:
+  duneutil:
     require:
     - "@=10.11.01d00"
-  protodune-ana:
+  protoduneana:
     require:
     - "@=10.11.01d00"
 
