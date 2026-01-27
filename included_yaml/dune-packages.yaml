@@ -76,3 +76,6 @@ packages:
   r-m-dd-config:
     require:
     - experiment=dune
+  root:
+    require:
+    - +xrootd
