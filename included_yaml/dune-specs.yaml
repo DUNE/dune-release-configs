@@ -1,4 +1,3 @@
 definitions:
 - specs_dune:
   - phlex %build_compiler
-  - phlex-examples %build_compiler
