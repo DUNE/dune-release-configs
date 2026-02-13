@@ -29,7 +29,6 @@ spack:
         'zlib-api:':
         - zlib
       variants:
-      - generator=ninja
       - build_type=Release
       - cxxstd=20
       target:
