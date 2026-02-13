@@ -6,56 +6,17 @@ spack:
   include:
 
   # Toolchain
-  - path: https://raw.githubusercontent.com/art-framework-suite/art-release-configs/refs/heads/main/included_yaml/gcc-12-toolchain.yaml
-    sha256: b769ddee1cff92c88b22cc968bc192a37d5fe863e6e224aeac5697a89480c5ca
+  - path: https://raw.githubusercontent.com/DUNE/dune-release-configs/refs/heads/phlex/included_yaml/gcc-14-toolchain.yaml
 
-  # DUNE
-  - path: https://raw.githubusercontent.com/DUNE/dune-release-configs/refs/heads/main/included_yaml/dune-packages.yaml
-    sha256: 7211368334d7b1ce625ae12c78185fc703b54dcd61933e7e70433bfed0159e62
-  - path: https://raw.githubusercontent.com/DUNE/dune-release-configs/refs/heads/main/included_yaml/dune-specs.yaml
-    sha256: 036ea114507ee528216753c19bb1abef513bbf2d23508e0e01792d62bccf5f9c
-
-  # LArSoft
-  - path: https://raw.githubusercontent.com/LArSoft/larsoft-release-configs/refs/heads/main/included_yaml/larsoft-packages.yaml
-    sha256: 79189dce1ceee3db1672da87b2af878c113f28f5041e7b29f4ff755d9a017f94
-  - path: https://raw.githubusercontent.com/LArSoft/larsoft-release-configs/refs/heads/main/included_yaml/larsoft-specs.yaml
-    sha256: a3d4c8646e15a02b284150fe67c9d582ef73c3c4a70f58cc17cbb40334af5752
-
-  # NuSoftHEP
-  - path: https://raw.githubusercontent.com/NuSoftHEP/nusofthep-release-configs/refs/heads/main/included_yaml/nusofthep-packages.yaml
-    sha256: 2d8dea0b6eabcd23d54e4db44a2e20aa4a7742b06a4107bca5ca3d1bc02f29e5
-  - path: https://raw.githubusercontent.com/NuSoftHEP/nusofthep-release-configs/refs/heads/main/included_yaml/nusofthep-specs.yaml
-    sha256: d9c0e0827d133ac6e44c207352baca83bb8d601ecbed260b5980d400571a0e94
-
-  # art
-  - path: https://raw.githubusercontent.com/art-framework-suite/art-release-configs/refs/heads/main/included_yaml/packages-art.yaml
-    sha256: 32bfd398fcb27780263e6d593decbad885995b43852ccaf15788d82c7aed49de
-  - path: https://raw.githubusercontent.com/art-framework-suite/art-release-configs/refs/heads/main/included_yaml/specs-art.yaml
-    sha256: 16e776ee6fea578385fe5ccfd67924fdb442f9219ea0cf3beaad5f6a211b7281
-
-  # FIFE
-  - path: https://raw.githubusercontent.com/fnal-fife/fife-release-configs/refs/heads/main/included_yaml/fife_packages.yaml
-    sha256: b7b7ef7ceaaa947c2cead036409f04aac94f5de357f6b7407699d00d511cfaa3
-  - path: https://raw.githubusercontent.com/fnal-fife/fife-release-configs/refs/heads/main/included_yaml/fife_specs.yaml
-    sha256: b0306775ce16510f7d099d597b3e07cd118f0a178362fdaea0273a8b788eca37
+  # DUNE phlex
+  - path: https://raw.githubusercontent.com/DUNE/dune-release-configs/refs/heads/phlex/included_yaml/dune-packages.yaml
+  - path: https://raw.githubusercontent.com/DUNE/dune-release-configs/refs/heads/phlex/included_yaml/dune-phlex-specs.yaml
 
   specs:
     - $specs_dune
-    - $specs_larsoft
-    - $specs_nusofthep
-    - $specs_art
-    - $fife_specs
-
-  upstreams:
-    cvmfs-larsoft:
-      install_tree: /cvmfs/larsoft.opensciencegrid.org/spack-fnal-v1.1.0/spack_env/opt/spack
 
   concretizer:
     unify: true
-    reuse:
-      from:
-      - type: environment
-        path: /cvmfs/larsoft.opensciencegrid.org/spack-fnal-v1.1.0/spack_env/var/spack/environments/larsoft-v10_11_01-unified-cuda-python-3_10-trimmed-m2
 
   packages:
     all:
@@ -67,6 +28,6 @@ spack:
       variants:
       - generator=ninja
       - build_type=Release
-      - cxxstd=17
+      - cxxstd=20
       target:
       - x86_64_v3

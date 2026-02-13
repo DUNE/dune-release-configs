@@ -65,6 +65,9 @@ packages:
     - build_type=RelWithDebInfo
     - generator=ninja
     - cxxstd=17
+  phlex:
+    require:
+    - "@0.1.0"
   py-tensorflow:
     require:
     - +cuda
