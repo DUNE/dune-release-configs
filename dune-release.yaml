@@ -13,7 +13,7 @@ spack:
   - path: https://raw.githubusercontent.com/DUNE/dune-release-configs/refs/heads/phlex/included_yaml/dune-packages.yaml
     sha256: c9b8a7042627ec6fba225a773eab5ac5b5e1ebe2ba362f80bfb96d090aabf2c3
   - path: https://raw.githubusercontent.com/DUNE/dune-release-configs/refs/heads/phlex/included_yaml/dune-specs.yaml
-    sha256: d267e81565057634a90b8473bf2dc577e9cadd194b496fc29b3675af5cd792ee
+    sha256: 8ab59053923c26a547e4710a4951d55d97fbe5360ee9d11d1d185668a9a6449c
 
   specs:
     - $specs_dune
