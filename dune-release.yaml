@@ -11,7 +11,7 @@ spack:
 
   # DUNE
   - path: https://raw.githubusercontent.com/DUNE/dune-release-configs/refs/heads/main/included_yaml/dune-packages.yaml
-    sha256: f36085e9de736feb765305bebc170593d767a046c94b5489f4ca0082ab4d6754
+    sha256: 3b3463713a90bd87cb59618f1df0fb28c63f76980a48b99ae71b5cf8157162fe
   - path: https://raw.githubusercontent.com/DUNE/dune-release-configs/refs/heads/main/included_yaml/dune-specs.yaml
     sha256: 61739bad1be5af0aafdc287cd1263652a4bdfaa7a413b8d6fa2a3135381f6486
 
