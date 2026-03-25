@@ -14,21 +14,21 @@ spack:
 
   # LArSoft
   - git: https://github.com/LArSoft/larsoft-release-configs
-    branch: main
+    tag: larsoft-10.11.01
     paths:
     - included_yaml/larsoft-packages.yaml
     - included_yaml/larsoft-specs.yaml
 
   # NuSoftHEP
   - git: https://github.com/NuSoftHEP/nusofthep-release-configs
-    branch: main
+    tag: nusofthep-3.17.01
     paths:
     - included_yaml/nusofthep-packages.yaml
     - included_yaml/nusofthep-specs.yaml
 
   # art
   - git: https://github.com/art-framework-suite/art-release-configs
-    branch: main
+    tag: art-3.14.04
     paths:
     - included_yaml/gcc-12-toolchain.yaml
     - included_yaml/packages-art.yaml
