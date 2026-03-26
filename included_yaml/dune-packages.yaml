@@ -60,6 +60,9 @@ packages:
     - build_type=RelWithDebInfo
     - generator=ninja
     - cxxstd=17
+  geant4reweight:
+    require:
+    - "@=01.20.11"
   grpc:
     require:
     - build_type=RelWithDebInfo
