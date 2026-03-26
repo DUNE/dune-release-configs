@@ -14,7 +14,7 @@ spack:
 
   # LArSoft
   - git: https://github.com/LArSoft/larsoft-release-configs
-    tag: larsoft-10.11.01
+    commit: 103e3e6813c1eba1bcf99bf59b090010b6ff1fe8
     paths:
     - included_yaml/larsoft-packages.yaml
     - included_yaml/larsoft-specs.yaml
