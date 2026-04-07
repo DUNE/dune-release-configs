@@ -9,7 +9,7 @@ spack:
   - git: https://github.com/DUNE/dune-release-configs
     branch: phlex
     paths:
-    - included_yaml/gcc-14-toolchain.yaml
+    - included_yaml/gcc-15-toolchain.yaml
     - included_yaml/dune-packages.yaml
     - included_yaml/dune-specs.yaml
 
