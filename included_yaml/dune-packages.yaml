@@ -67,7 +67,7 @@ packages:
     - cxxstd=17
   phlex:
     require:
-    - "@0.1.0"
+    - "@0.2.0"
   py-tensorflow:
     require:
     - +cuda
