@@ -5,15 +5,13 @@ spack:
 
   include:
 
-  # Toolchain
-  - path: https://raw.githubusercontent.com/DUNE/dune-release-configs/refs/heads/phlex/included_yaml/gcc-14-toolchain.yaml
-    sha256: 5386e7dce824ed5d6bf32f1e9e97d11a4462fd25f485c8974d92fcf777c9f54c
-
-  # DUNE phlex
-  - path: https://raw.githubusercontent.com/DUNE/dune-release-configs/refs/heads/phlex/included_yaml/dune-packages.yaml
-    sha256: c9b8a7042627ec6fba225a773eab5ac5b5e1ebe2ba362f80bfb96d090aabf2c3
-  - path: https://raw.githubusercontent.com/DUNE/dune-release-configs/refs/heads/phlex/included_yaml/dune-specs.yaml
-    sha256: 8ab59053923c26a547e4710a4951d55d97fbe5360ee9d11d1d185668a9a6449c
+  # DUNE
+  - git: https://github.com/DUNE/dune-release-configs
+    branch: phlex
+    paths:
+    - included_yaml/gcc-14-toolchain.yaml
+    - included_yaml/dune-packages.yaml
+    - included_yaml/dune-specs.yaml
 
   specs:
     - $specs_dune
