@@ -3,52 +3,52 @@ packages:
   # DUNE packages
   duneana:
     require:
-    - "@=10.11.01d00"
+    - "@=10.20.03d01"
   duneanaobj:
     require:
-    - "@=03.11.00"
+    - "@=03.12.00"
   dunecalib:
     require:
-    - "@=10.11.01d00"
+    - "@=10.20.03d01"
   dunecore:
     require:
-    - "@=10.11.01d00"
+    - "@=10.20.03d01"
   dunedaqdataformats:
     require:
     - "@=4.4.5"
   dunedataprep:
     require:
-    - "@=10.11.01d00"
+    - "@=10.20.03d01"
   dunedetdataformats:
     require:
-    - "@=4.4.5"
+    - "@=4.4.6"
   duneexamples:
     require:
-    - "@=10.11.01d00"
+    - "@=10.20.03d01"
   duneopdet:
     require:
-    - "@=10.11.01d00"
+    - "@=10.20.03d01"
   dunepdlegacy:
     require:
     - "@=1.01.05"
   duneprototypes:
     require:
-    - "@=10.11.01d00"
+    - "@=10.20.03d01"
   dunereco:
     require:
-    - "@=10.11.01d00"
+    - "@=10.20.03d01"
   dunesim:
     require:
-    - "@=10.11.01d00"
+    - "@=10.20.03d01"
   dunesw:
     require:
-    - "@=10.11.01d00"
+    - "@=10.20.03d01"
   duneutil:
     require:
-    - "@=10.11.01d00"
+    - "@=10.20.03d01"
   protoduneana:
     require:
-    - "@=10.11.01d00"
+    - "@=10.20.03d01"
 
   # external dependencies
   cuda:
@@ -56,13 +56,13 @@ packages:
     - "@12.6"
   geant4:
     require:
-    - "@10.6.1"
+    - "@=11.2.2"
     - build_type=RelWithDebInfo
     - generator=ninja
     - cxxstd=17
   geant4reweight:
     require:
-    - "@=01.20.11"
+    - "@=01.21.02"
   grpc:
     require:
     - build_type=RelWithDebInfo
