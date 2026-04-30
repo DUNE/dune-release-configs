@@ -85,6 +85,9 @@ packages:
   root:
     require:
     - +xrootd
+  snakemake:
+    require:
+      "@7:"
   systematicstools:
     require:
     - "@=01.04.04"
