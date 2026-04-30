@@ -18,4 +18,4 @@ definitions:
   - protoduneana %build_compiler
   - gfal2-util %build_compiler
   - r-m-dd-config %build_compiler
-  - builtin.snakemake %build_compiler
+  - snakemake %build_compiler
