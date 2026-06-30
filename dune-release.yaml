@@ -50,7 +50,7 @@ spack:
 
   upstreams:
     cvmfs-larsoft:
-      install_tree: /cvmfs/larsoft.opensciencegrid.org/spack-fnal-v1.1.0/spack_env/opt/spack
+      install_tree: /cvmfs/larsoft.opensciencegrid.org/spack-fnal-v1.1.1/spack_env/opt/spack
 
   concretizer:
     unify: true
