@@ -14,14 +14,14 @@ spack:
 
   # LArSoft
   - git: https://github.com/LArSoft/larsoft-release-configs
-    tag: larsoft-10.20.03
+    tag: larsoft-10.20.09
     paths:
     - included_yaml/larsoft-packages.yaml
     - included_yaml/larsoft-specs.yaml
 
   # NuSoftHEP
   - git: https://github.com/NuSoftHEP/nusofthep-release-configs
-    tag: nusofthep-3.22.00
+    tag: nusofthep-3.22.01
     paths:
     - included_yaml/nusofthep-packages.yaml
     - included_yaml/nusofthep-specs.yaml
@@ -57,7 +57,7 @@ spack:
     reuse:
       from:
       - type: environment
-        path: /cvmfs/larsoft.opensciencegrid.org/spack-fnal-v1.1.0/spack_env/var/spack/environments/larsoft-v10_20_03-unified-cuda-python-3_9-trimmed-rc1
+        path: /cvmfs/larsoft.opensciencegrid.org/spack-fnal-v1.1.1/var/spack/environments/larsoft-v10_20_09-unified-cuda-python-3_11-trimmed-rc2
 
   packages:
     all:
