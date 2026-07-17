@@ -70,7 +70,7 @@ packages:
     - cxxstd=17
   phlex:
     require:
-    - "@0.3.1"
+    - "@0.3.2"
   nusystematics:
     require:
     - "@=1.05.07"
