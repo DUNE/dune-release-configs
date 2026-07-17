@@ -14,7 +14,7 @@ spack:
 
   # LArSoft
   - git: https://github.com/LArSoft/larsoft-release-configs
-    tag: larsoft-10.20.09
+    tag: larsoft-10.21.01
     paths:
     - included_yaml/larsoft-packages.yaml
     - included_yaml/larsoft-specs.yaml
@@ -57,7 +57,7 @@ spack:
     reuse:
       from:
       - type: environment
-        path: /cvmfs/larsoft.opensciencegrid.org/spack-fnal-v1.1.1/var/spack/environments/larsoft-v10_20_09-unified-cuda-python-3_11-trimmed-rc2
+        path: /cvmfs/larsoft.opensciencegrid.org/spack-fnal-v1.1.1/var/spack/environments/larsoft-v10_21_01-unified-cuda-python-3_11-trimmed-rc1
 
   packages:
     all:
