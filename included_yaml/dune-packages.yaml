@@ -91,3 +91,6 @@ packages:
   systematicstools:
     require:
     - "@=01.04.04"
+  xrootd:
+    require:
+    - +python
