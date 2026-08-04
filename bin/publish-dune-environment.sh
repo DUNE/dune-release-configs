@@ -70,5 +70,7 @@ rm spack.lock
 spack env activate $ENV_NAME
 spack mirror add --scope site --type binary dune $BUILD_ARTIFACT/bc
 spack install --cache-only --include-build-deps
+rm $SPACK_ENV/.spack-env/view/.cvmfscatalog
+touch $SPACK_ENV/.cvmfscatalog
 spack mirror remove dune
 
