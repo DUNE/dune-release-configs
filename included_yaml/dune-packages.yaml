@@ -62,7 +62,7 @@ packages:
     - cxxstd=17
   geant4reweight:
     require:
-    - "@=01.21.02"
+    - "@01.21"
   grpc:
     require:
     - build_type=RelWithDebInfo
