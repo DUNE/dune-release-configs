@@ -7,7 +7,7 @@ spack:
 
   # DUNE
   - git: https://github.com/DUNE/dune-release-configs
-    branch: main
+    tag: dunesw-10.22.00d01-justin-01.06.03
     paths:
     - included_yaml/dune-packages.yaml
     - included_yaml/dune-specs.yaml
@@ -57,7 +57,7 @@ spack:
     reuse:
       from:
       - type: environment
-        path: /cvmfs/larsoft.opensciencegrid.org/spack-fnal-v1.1.1/var/spack/environments/larsoft-v10_22_00-unified-cuda-python-3_11-trimmed-rc1
+        path: /cvmfs/larsoft.opensciencegrid.org/spack-fnal-v1.1.1/var/spack/environments/larsoft-v10_22_00-unified-cuda-python-3_11-trimmed-rc2
 
   packages:
     all:
