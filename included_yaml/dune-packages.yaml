@@ -49,6 +49,9 @@ packages:
   protoduneana:
     require:
     - "@=10.22.00d01"
+  justin:
+    require:
+    - "@=01.06.03"
 
   # external dependencies
   cuda:
