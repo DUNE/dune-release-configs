@@ -7,7 +7,7 @@ spack:
 
   # DUNE
   - git: https://github.com/DUNE/dune-release-configs
-    tag: dunesw-10.22.00d01-justin-01.06.03
+    tag: dunesw-10.22.00d01-justin-01.06.04
     paths:
     - included_yaml/dune-packages.yaml
     - included_yaml/dune-specs.yaml
