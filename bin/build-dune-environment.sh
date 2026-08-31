@@ -52,11 +52,6 @@ if [[ ! -v WORKSPACE ]]; then
   exit 1
 fi
 
-if [ ! -z "$( ls -A $WORKSPACE )" ]; then
-   echo Error: workspace directory $WORKSPACE is not empty!
-   exit 1
-fi
-
 # configure build environment
 SPACK_ROOT=$WORKSPACE/spack
 SPACK_ENV=$WORKSPACE/env
