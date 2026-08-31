@@ -61,27 +61,30 @@ done
 if [[ $DUNESW_VERSION != none ]]; then
   for pkg in duneana dunecalib dunecore dunedataprep duneexamples duneopdet \
              duneprototypes dunereco dunesim dunesw duneutil protoduneana; do
-    spack checksum -a $pkg $DUNESW_VERSION
+    spack checksum -ab $pkg $DUNESW_VERSION
   done
 fi
 
 # duneanaobj version
 if [[ $DUNEANAOBJ_VERSION != none ]]; then
-  spack checksum -a duneanaobj $DUNEANAOBJ_VERSION
+  spack checksum -ab duneanaobj $DUNEANAOBJ_VERSION
 fi
 
 # dunedaqdataformats version
 if [[ $DUNEDAQDATAFORMATS_VERSION != none ]]; then
-  spack checksum -a dunedaqdataformats $DUNEDAQDATAFORMATS_VERSION
+  spack checksum -ab dunedaqdataformats $DUNEDAQDATAFORMATS_VERSION
 fi
 
 # dunedetdataformats version
 if [[ $DUNEDETDATAFORMATS_VERSION != none ]]; then
-  spack checksum -a dunedetdataformats $DUNEDETDATAFORMATS_VERSION
+  spack checksum -ab dunedetdataformats $DUNEDETDATAFORMATS_VERSION
 fi
 
 # dunepdlegacy version
 if [[ $DUNEPDLEGACY_VERSION != none ]]; then
-  spack checksum -a dunepdlegacy $DUNEPDLEGACY_VERSION
+  spack checksum -ab dunepdlegacy $DUNEPDLEGACY_VERSION
 fi
 
+# remove FIXME lines
+find $SPACK_ROOT/var/spack/repos/dune_spack -type f -exec \
+    sed -i 's/  # FIXME//g' {} +
