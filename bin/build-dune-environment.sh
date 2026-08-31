@@ -5,14 +5,12 @@ if [[ ! -v WORKSPACE ]]; then
   exit 1
 fi
 
-# SPACK_REPO=https://github.com/FNALssi/spack.git
-# SPACK_VERSION=fnal-v1.1.1
-SPACK_REPO=https://github.com/spack/spack.git
-SPACK_VERSION=v1.2.2
+SPACK_REPO=https://github.com/FNALssi/spack.git
+SPACK_VERSION=fnal-v1.2.2
 SPACK_ROOT=$WORKSPACE/spack
 SPACK_ENV=$WORKSPACE/env
 
-FERMI_SPACK_TOOLS_VERSION=main
+FERMI_SPACK_TOOLS_VERSION=fnal-v1.2.2
 
 DUNE_RELEASE_CONFIGS_DIR=$WORKSPACE/dune-release-configs
 DUNE_RELEASE_CONFIGS_REPO=git@github.com:DUNE/dune-release-configs
