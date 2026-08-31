@@ -29,7 +29,7 @@ while [[ $# -gt 0 ]]; do
       shift
       shift
       ;;
-    -d|--dune-release)
+    -r|--dune-release)
       DUNE_RELEASE=$2
       shift
       shift
