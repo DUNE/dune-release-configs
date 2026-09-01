@@ -74,4 +74,3 @@ rm $SPACK_ENV/.spack-env/view/.cvmfscatalog
 wget -P $SPACK_ENV $BUILD_ARTIFACT/env/spack.yaml
 touch $SPACK_ENV/.cvmfscatalog
 spack mirror remove dune
-
