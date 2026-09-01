@@ -12,7 +12,7 @@
 BUILD_INDEX=0
 BUILD_PROCESS=dune-spack-build
 ENV_NAME=none
-SPACK_INSTANCE=/cvmfs/dune.opensciencegrid.org/spack/v1.1.1
+SPACK_INSTANCE=/cvmfs/dune.opensciencegrid.org/spack
 
 # parse arguments
 while [[ $# -gt 0 ]]; do
