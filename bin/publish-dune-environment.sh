@@ -64,13 +64,13 @@ source $SPACK_INSTANCE/setup-env.sh
 cd $SPACK_ROOT
 git pull
 spack repo update
-wget $BUILD_ARTIFACT/env/spack.lock
+wget $BUILD_ARTIFACT/env/spack.lock -O ./spack.lock
 spack env create $ENV_NAME spack.lock
 rm spack.lock
 spack env activate $ENV_NAME
 spack mirror add --scope site --type binary dune $BUILD_ARTIFACT/bc
 spack install --cache-only --include-build-deps
 rm $SPACK_ENV/.spack-env/view/.cvmfscatalog
-wget -P $SPACK_ENV $BUILD_ARTIFACT/env/spack.yaml
+wget -P $SPACK_ENV $BUILD_ARTIFACT/env/spack.yaml -O ./spack.yaml
 touch $SPACK_ENV/.cvmfscatalog
 spack mirror remove dune
