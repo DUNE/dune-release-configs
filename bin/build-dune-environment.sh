@@ -57,7 +57,7 @@ SPACK_ROOT=$WORKSPACE/spack
 SPACK_ENV=$WORKSPACE/env
 
 DUNE_RELEASE_CONFIGS_DIR=$WORKSPACE/dune-release-configs
-DUNE_RELEASE_CONFIGS_REPO=git@github.com:DUNE/dune-release-configs
+DUNE_RELEASE_CONFIGS_REPO=https://github.com/DUNE/dune-release-configs
 
 BUILDCACHE=$WORKSPACE/bc
 TMPDIR=$WORKSPACE/tmp
