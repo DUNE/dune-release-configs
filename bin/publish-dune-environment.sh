@@ -72,5 +72,7 @@ spack mirror add --scope site --type binary dune $BUILD_ARTIFACT/bc
 spack install --cache-only --include-build-deps
 rm $SPACK_ENV/.spack-env/view/.cvmfscatalog
 wget -P $SPACK_ENV $BUILD_ARTIFACT/env/spack.yaml -O ./spack.yaml
+spack config rm upstreams:cvmfs-larsoft
+spack config rm concretizer:reuse
 touch $SPACK_ENV/.cvmfscatalog
 spack mirror remove dune
