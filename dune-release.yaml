@@ -11,6 +11,7 @@ spack:
     paths:
     - included_yaml/dune-packages.yaml
     - included_yaml/dune-specs.yaml
+    persist: true
 
   # LArSoft
   - git: https://github.com/LArSoft/larsoft-release-configs
@@ -18,6 +19,7 @@ spack:
     paths:
     - included_yaml/larsoft-packages.yaml
     - included_yaml/larsoft-specs.yaml
+    persist: true
 
   # NuSoftHEP
   - git: https://github.com/NuSoftHEP/nusofthep-release-configs
@@ -25,6 +27,7 @@ spack:
     paths:
     - included_yaml/nusofthep-packages.yaml
     - included_yaml/nusofthep-specs.yaml
+    persist: true
 
   # art
   - git: https://github.com/art-framework-suite/art-release-configs
@@ -33,6 +36,7 @@ spack:
     - included_yaml/gcc-12-toolchain.yaml
     - included_yaml/packages-art.yaml
     - included_yaml/specs-art.yaml
+    persist: true
 
   # FIFE
   - git: https://github.com/fnal-fife/fife-release-configs
@@ -40,6 +44,7 @@ spack:
     paths:
     - included_yaml/fife_packages.yaml
     - included_yaml/fife_specs.yaml
+    persist: true
 
   specs:
     - $specs_dune
