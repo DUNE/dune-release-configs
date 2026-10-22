@@ -94,3 +94,6 @@ packages:
   systematicstools:
     require:
     - "@=01.04.04"
+  xxhash:
+    require:
+      - 'cflags=-fPIC'
