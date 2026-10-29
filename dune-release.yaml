@@ -7,7 +7,7 @@ spack:
 
   # DUNE
   - git: https://github.com/DUNE/dune-release-configs
-    branch: main
+    branch: main-10.26.00d05
     paths:
     - included_yaml/dune-packages.yaml
     - included_yaml/dune-specs.yaml
