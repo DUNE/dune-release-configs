@@ -3,8 +3,8 @@
 # Based on DUNE/dune-release-configs and EMPHATICSoft/emph-spack build scripts.
 set -euo pipefail
 
-SPACK_VERSION=fnal-v1.1.1
-DUNE_RELEASE=phlex
+SPACK_VERSION=
+DUNE_RELEASE=
 DUNE_REPO=${DUNE_REPO:-https://github.com/DUNE/dune-release-configs.git}
 RECIPES_FROM=none
 JOBS=
