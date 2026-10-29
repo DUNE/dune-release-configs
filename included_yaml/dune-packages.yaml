@@ -3,55 +3,55 @@ packages:
   # DUNE packages
   duneana:
     require:
-    - "@=10.23.00d01"
+    - "@10.26.00d05"
   duneanaobj:
     require:
-    - "@=03.16.00"
+    - "@03.16.00"
   dunecalib:
     require:
-    - "@=10.23.00d01"
+    - "@10.26.00d05"
   dunecore:
     require:
-    - "@=10.23.00d01"
+    - "@10.26.00d05"
   dunedaqdataformats:
     require:
-    - "@=4.4.5"
+    - "@4.4.5"
   dunedataprep:
     require:
-    - "@=10.23.00d01"
+    - "@10.26.00d05"
   dunedetdataformats:
     require:
-    - "@=4.4.6"
+    - "@4.4.6"
   duneexamples:
     require:
-    - "@=10.23.00d01"
+    - "@10.26.00d05"
   duneopdet:
     require:
-    - "@=10.23.00d01"
+    - "@10.26.00d05"
   dunepdlegacy:
     require:
-    - "@=1.01.05"
+    - "@1.01.05"
   duneprototypes:
     require:
-    - "@=10.23.00d01"
+    - "@10.26.00d05"
   dunereco:
     require:
-    - "@=10.23.00d01"
+    - "@10.26.00d05"
   dunesim:
     require:
-    - "@=10.23.00d01"
+    - "@10.26.00d05"
   dunesw:
     require:
-    - "@=10.23.00d01"
+    - "@10.26.00d05"
   duneutil:
     require:
-    - "@=10.23.00d01"
+    - "@10.26.00d05"
   protoduneana:
     require:
-    - "@=10.23.00d01"
+    - "@10.26.00d05"
   justin:
     require:
-    - "@=01.06.05"
+    - "@01.06.05"
 
   # external dependencies
   cuda:
@@ -59,7 +59,7 @@ packages:
     - "@12.6"
   geant4:
     require:
-    - "@=11.2.2"
+    - "@11.2.2"
     - build_type=RelWithDebInfo
     - generator=ninja
     - cxxstd=17
@@ -73,7 +73,7 @@ packages:
     - cxxstd=17
   nusystematics:
     require:
-    - "@=1.05.07"
+    - "@1.05.07"
   py-tensorflow:
     require:
     - +cuda
@@ -93,7 +93,7 @@ packages:
       "@7:"
   systematicstools:
     require:
-    - "@=01.04.04"
+    - "@01.04.04"
   xrootd:
     require:
     - +python
