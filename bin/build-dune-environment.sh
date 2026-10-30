@@ -125,7 +125,7 @@ configure() {
 install() {
   local args=(--fail-fast)
   [[ -z $JOBS ]] || args+=(-j "$JOBS")
-  spack -e "$SPACK_ENV" install "${args[@]}"
+  spack -c config:installer:old -e "$SPACK_ENV" install "${args[@]}"
 }
 
 publish() {
