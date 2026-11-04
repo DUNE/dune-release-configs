@@ -3,52 +3,52 @@ packages:
   # DUNE packages
   duneana:
     require:
-    - "@=10.26.00d04"
+    - "@=10.26.00d05"
   duneanaobj:
     require:
     - "@=03.15.00"
   dunecalib:
     require:
-    - "@=10.26.00d04"
+    - "@=10.26.00d05"
   dunecore:
     require:
-    - "@=10.26.00d04"
+    - "@=10.26.00d05"
   dunedaqdataformats:
     require:
     - "@=4.4.5"
   dunedataprep:
     require:
-    - "@=10.26.00d04"
+    - "@=10.26.00d05"
   dunedetdataformats:
     require:
     - "@=4.4.6"
   duneexamples:
     require:
-    - "@=10.26.00d04"
+    - "@=10.26.00d05"
   duneopdet:
     require:
-    - "@=10.26.00d04"
+    - "@=10.26.00d05"
   dunepdlegacy:
     require:
     - "@=1.01.05"
   duneprototypes:
     require:
-    - "@=10.26.00d04"
+    - "@=10.26.00d05"
   dunereco:
     require:
-    - "@=10.26.00d04"
+    - "@=10.26.00d05"
   dunesim:
     require:
-    - "@=10.26.00d04"
+    - "@=10.26.00d05"
   dunesw:
     require:
-    - "@=10.26.00d04"
+    - "@=10.26.00d05"
   duneutil:
     require:
-    - "@=10.26.00d04"
+    - "@=10.26.00d05"
   protoduneana:
     require:
-    - "@=10.26.00d04"
+    - "@=10.26.00d05"
 
   # external dependencies
   cuda:
@@ -70,7 +70,7 @@ packages:
     - cxxstd=17
   phlex:
     require:
-    - "@0.4.1"
+    - "@0.4.3"
   nusystematics:
     require:
     - "@=1.05.07"
