@@ -129,7 +129,7 @@ install() {
 }
 
 publish() {
-  spack gpg trust "$GPG_KEY"
+  spack gpg trust -y "$GPG_KEY"
   spack -e "$SPACK_ENV" buildcache push --signed --with-build-dependencies --private "$BUILDCACHE"
   spack gpg publish -d "$BUILDCACHE" --update-index
   spack buildcache update-index "$BUILDCACHE"
