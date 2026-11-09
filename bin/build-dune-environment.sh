@@ -123,7 +123,7 @@ configure() {
 }
 
 install() {
-  local args=(--fail-fast)
+  local args=(--fail-fast --include-build-deps)
   [[ -z $JOBS ]] || args+=(-j "$JOBS")
   spack -c config:installer:old -e "$SPACK_ENV" install "${args[@]}"
 }
