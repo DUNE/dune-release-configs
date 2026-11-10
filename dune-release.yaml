@@ -7,7 +7,7 @@ spack:
 
   # DUNE
   - git: https://github.com/DUNE/dune-release-configs
-    tag: dunesw-10.30.00d00-justin-01.06.05
+    tag: dunesw-10.31.00d00-justin-01.06.05
     paths:
     - included_yaml/dune-packages.yaml
     - included_yaml/dune-specs.yaml
@@ -15,7 +15,7 @@ spack:
 
   # LArSoft
   - git: https://github.com/LArSoft/larsoft-release-configs
-    tag: larsoft-10.30.00
+    tag: larsoft-10.31.00
     paths:
     - included_yaml/larsoft-packages.yaml
     - included_yaml/larsoft-specs.yaml
@@ -62,7 +62,7 @@ spack:
     reuse:
       from:
       - type: environment
-        path: /cvmfs/larsoft.opensciencegrid.org/spack-fnal-v1.1.1/var/spack/environments/larsoft-v10_30_00-unified-cuda-python-3_11-trimmed-rc1
+        path: /cvmfs/larsoft.opensciencegrid.org/spack-fnal-v1.1.1/var/spack/environments/larsoft-v10_31_00-unified-cuda-python-3_11-trimmed-rc2
 
   packages:
     all:
