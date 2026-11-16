@@ -77,3 +77,6 @@ spack:
       - cxxstd=17
       target:
       - x86_64_v3
+    ppfx:
+      require:
+      - "@:2"
